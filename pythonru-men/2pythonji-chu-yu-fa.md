@@ -162,7 +162,7 @@ print(r'c:\north\sourth')
 
 - [:-4]    [-4:]
 
-- r'c:\windows'等价于R'c:\windows'
+- r'c:\windows'等价于R'c:\windows'    对字符串进行转义
 
 
 
