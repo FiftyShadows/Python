@@ -1,3 +1,16 @@
+##vscode
+
+- files.exclude配置不需要显示的文件
+
+- editor.detectIndentation打开文件时按照tab规则缩进
+
+- ctrl + p检索文件
+
+- 多行注释'''    alt + shift + a
+
+
+
+
 ##了解语法是编程的必要条件，精通语法是编好程的必要条件。
 
 
