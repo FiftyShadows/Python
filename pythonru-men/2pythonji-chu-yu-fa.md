@@ -169,11 +169,3 @@ print(r'c:\north\sourth')
 
 
 
-
-
-
-
-
-
-
-
