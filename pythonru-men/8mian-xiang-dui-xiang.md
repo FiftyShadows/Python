@@ -46,7 +46,7 @@ class Student():
         print('I am doing homework.')
 
 student = Student('zhangsan','18')
-
+student.__init_
 print(student.name, student.age)
 ```
 
@@ -55,7 +55,51 @@ print(student.name, student.age)
 
 ##区别模块变量与类中的变量
 
+- 类变量：和类相关的变量
 
+- 实例变量：和对象相关联的
+
+- 类变量和具体的对象无关，在类中应该定义抽象的变量，定义具体的变量并没有意义
+
+```py
+class Student():
+    #类变量
+    sum = 88
+    def __init__(self, name, age):
+        #实例变量
+        self.name = name
+        self.age = age
+    def do_homeword(self):
+        print('I am doing homework.')
+
+student = Student('zhangsan','18')
+student.__init__('s', 22)
+print(student.name, student.age, student.sum)
+```
+
+
+
+##self
+
+- `student1.__dict__`dict是一个字典，保存着当前对象下所有的变量，但不包含类变量
+
+- 如果访问一个实例变量，首先会在实例变量列表里面去查找，如果没有并不会返回空，而是到类变量列表里面寻找，如果没找到会到父类里去寻找
+
+```
+class Student():
+    name = 'qiyue'
+    age = 22
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        print(self)
+    def do_homework():
+        pass
+
+student1 = Student('石敢当', 18)
+print(student1.__dict__)
+print(Student.__dict__)
+```
 
 
 
