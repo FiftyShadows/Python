@@ -61,6 +61,8 @@ print(student.name, student.age)
 
 - 类变量和具体的对象无关，在类中应该定义抽象的变量，定义具体的变量并没有意义
 
+- 实例方法：和对象实例相关联
+
 ```py
 class Student():
     #类变量
@@ -85,6 +87,9 @@ print(student.name, student.age, student.sum)
 
 - 如果访问一个实例变量，首先会在实例变量列表里面去查找，如果没有并不会返回空，而是到类变量列表里面寻找，如果没找到会到父类里去寻找
 
+
+- self在定义实例方法时必须显式指定，调用实例变量时用self传参，self可以替换成其他参数
+
 ```
 class Student():
     name = 'qiyue'
@@ -102,6 +107,12 @@ print(Student.__dict__)
 ```
 
 
+
+##在实例方法中访问类变量
+
+- 第一种方式：用类来访问，Student.sum
+
+- 第二种方式：用self来访问，`self.__class__`
 
 
 
