@@ -10,4 +10,5 @@
   * [5.分支、循环、条件与枚举](pythonru-men/5fen-zhi-3001-xun-huan-3001-tiao-jian-yu-mei-ju.md)
   * [6.包、模块、函数与变量作用域](pythonru-men/6bao-3001-mo-kuai-3001-han-shu-yu-bian-liang-zuo-yong-yu.md)
   * [7.Python函数](pythonru-men/7pythonhan-shu.md)
+  * [8.面向对象](pythonru-men/8mian-xiang-dui-xiang.md)
 
