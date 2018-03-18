@@ -160,6 +160,8 @@ class Student():
     def add(x,y):
         print(Stident.sum)
         print(x + y)
+
+Student.add(3,2)
 ```
 
 
