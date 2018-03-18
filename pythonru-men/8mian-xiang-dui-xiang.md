@@ -90,6 +90,8 @@ print(student.name, student.age, student.sum)
 
 - self在定义实例方法时必须显式指定，调用实例变量时用self传参，self可以替换成其他参数
 
+- self可以代表当前对象
+
 ```
 class Student():
     name = 'qiyue'
@@ -114,11 +116,56 @@ print(Student.__dict__)
 
 - 第二种方式：用self来访问，`self.__class__`
 
+- 实例方法通常用来操作实例变量的
 
 
 
 
 
+##类方法
+
+- 类方法操作和类相关的变量
+
+- 操作与对象无关的变量，最正确的是使用类方法
+
+- 允许对象调用类方法，并不建议
+
+- @classmethod，cls代表当前的类，可替换成其他名字
+
+```
+class Student():
+    sum = 0
+    @classmethod
+    def plus_sum(cls):
+        cls.sum += 1
+```
+
+
+
+
+##静态方法
+
+- 静态方法可以被类或者对象调用
+
+- 可以访问类变量，跟类方法区别是，类方法传入cls，静态方法没有cls，静态方法可以被类方法代替，类方法更方便通过cls访问类变量
+
+- 不推荐使用，静态方法跟面向对象关联比较弱，类似普通方法
+
+- @staticmethod
+
+```
+class Student():
+    sum = 0
+    @staticmethod
+    def add(x,y):
+        print(Stident.sum)
+        print(x + y)
+```
+
+
+
+
+##类方法和静态方法都不可以访问实例变量
 
 
 
