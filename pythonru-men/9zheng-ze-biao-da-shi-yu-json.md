@@ -153,6 +153,80 @@ print(r2)
 
 
 
+##常用正则表达式
+
+
+
+
+
+
+##JSON
+
+- JavaScript Object Notation；JS对象标记
+
+- 是一种轻量级的数据交换格式
+
+- 字符串是JSON的表现形式
+
+- 符合JSON格式的字符串叫做JSON字符串
+
+- 易于阅读、易于解析、网络传输效率高、跨语言交换数据
+
+
+
+
+##反序列化
+
+- JSON有JSON对象和JSON数组
+
+- JSON中数字和布尔值不需要加引号，布尔值为false/true，解析成python后为False/True
+
+- 发序列化：由字符串到语言下的某种数据结构的过程
+
+```py
+import json
+s = json.loads(xx)
+```
+
+
+
+
+
+##序列化
+
+- json数据类型和python的转化关系
+
+- 序列化方法；json.dumps()
+
+```
+JSON    PYTHON    
+object    dict
+array    list
+string    str
+number    int
+number    float
+true    True
+false    False
+null    None
+```
+
+
+
+##存储对象到数据库
+
+- 序列化和反序列化的方式效率太低
+
+- 拆成二维表结构在mysql中存储；或者在nosql(mongodb)
+
+
+
+
+
+##JSON总结
+
+- ECMAScript标准的实现：JavaScript,ActionScript,JSON
+
+- REST服务的标准格式
 
 
 
