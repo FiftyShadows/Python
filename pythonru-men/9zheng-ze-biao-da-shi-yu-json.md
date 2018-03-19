@@ -106,7 +106,7 @@ if len(r) > 0:
 
 - str.replace()**由于字符串不可变性，原字符串不会被替换，只会返回**
 
-```
+```py
 import re
 s = 'javaC#alsjdC#akshdkaC#hakndaC#adnajdC#'
 def convert(value):
@@ -120,6 +120,35 @@ print(s)
 
 
 ##把函数作为参数传递
+
+- 注意获得的是字符串，返回的也必须是字符串
+
+- 灵活的设计方式：接收一个函数作为参数的方式
+
+
+
+
+
+##search与match函数
+
+- match从一个开始匹配，匹配不到则返回None，匹配到则返回对象
+
+- search返回匹配到的第一个的对象
+
+
+
+
+##group分组
+
+```
+import re
+s = 'Life is short, I use python.I love python.'
+r1 = re.search('Life(.*)python(.*)python', s)
+print(r1.group(0, 1, 2))
+print(r1.groups())
+r2 = re.findall('Life(.*)python(.*)python', s)
+print(r2)
+```
 
 
 
