@@ -64,3 +64,17 @@ print(a,b,c,e)
 ```
 
 
+
+
+##index()
+
+```py
+a = 'c|c++|js|c#|.net|python'
+if a.index('python') > -1 :
+    print(True)
+    
+    
+print('python' in a)
+```
+
+
