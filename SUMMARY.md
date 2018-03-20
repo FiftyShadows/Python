@@ -12,4 +12,5 @@
   * [7.Python函数](pythonru-men/7pythonhan-shu.md)
   * [8.面向对象](pythonru-men/8mian-xiang-dui-xiang.md)
   * [9.正则表达式与JSON](pythonru-men/9zheng-ze-biao-da-shi-yu-json.md)
+  * [10.Python的高级语法与用法](pythonru-men/10pythonde-gao-ji-yu-fa-yu-yong-fa.md)
 
