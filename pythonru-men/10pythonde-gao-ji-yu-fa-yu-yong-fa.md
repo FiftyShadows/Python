@@ -191,6 +191,22 @@ f1()
 
 ##闭包的应用
 
+- 变量作用域的问题
+
+- 使用global关键字声明origin为全局变量
+
+```py
+origin = 0
+def go(step):
+    new_pos = origin + step
+    origin = new_pos
+    return new_pos
+    #函数内部出现了局部变量；执行时不会再去访问外面的变量了
+print(go(2))
+print(go(3))
+print(go(6))
+```
+
 
 
 
