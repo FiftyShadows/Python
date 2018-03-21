@@ -153,6 +153,17 @@ class VIP(IntEnum):
 - 闭包 = 函数 + 环境变量（函数定义时候）
 
 ```
+def curve_pre():
+    a = 25
+    def curve(x):
+        return a*x*x
+    return curve
+f = curve_pre()
+f(2)
+
+```
+
+```
 def f1():
     a = 10
     def f2():
@@ -233,6 +244,10 @@ print(tourist.__closure__[0].cell_contents)
 
 
 ##函数式编程
+
+- 闭包常驻于内存里，极容易造成内存泄漏。server上还好，但JS会引起浏览器卡顿。
+
+- 闭包是函数式编程的一种
 
 
 
