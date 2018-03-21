@@ -196,6 +196,10 @@ f1()
 
 - 使用global关键字声明origin为全局变量
 
+- nonlocal强制声明一个变量不是本地变量
+
+- 尽量少的使用全局变量
+
 ```py
 origin = 0
 def go(step):
@@ -206,6 +210,22 @@ def go(step):
 print(go(2))
 print(go(3))
 print(go(6))
+```
+
+```
+origin = 0
+def factory(pos):
+    def go(step):
+        nonlocal pos
+        pos += step
+        return pos
+    return go
+
+tourist = factory(origin)
+print(tourist(2))
+print(tourist(3))
+print(tourist(6))
+print(tourist.__closure__[0].cell_contents)
 ```
 
 
