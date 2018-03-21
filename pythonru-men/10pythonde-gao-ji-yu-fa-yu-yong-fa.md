@@ -212,7 +212,7 @@ print(go(3))
 print(go(6))
 ```
 
-```
+```py
 origin = 0
 def factory(pos):
     def go(step):
@@ -228,6 +228,11 @@ print(tourist(6))
 print(tourist.__closure__[0].cell_contents)
 ```
 
+
+
+
+
+##函数式编程
 
 
 
