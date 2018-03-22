@@ -13,4 +13,5 @@
   * [8.面向对象](pythonru-men/8mian-xiang-dui-xiang.md)
   * [9.正则表达式与JSON](pythonru-men/9zheng-ze-biao-da-shi-yu-json.md)
   * [10.Python的高级语法与用法](pythonru-men/10pythonde-gao-ji-yu-fa-yu-yong-fa.md)
+  * [11.函数式编程： 匿名函数、高阶函数、装饰器](pythonru-men/11han-shu-shi-bian-cheng-ff1a-ni-ming-han-shu-3001-gao-jie-han-shu-3001-zhuang-shi-qi.md)
 
