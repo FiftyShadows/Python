@@ -83,6 +83,27 @@ filter(lambda x: x == 1, list_x)
 
 
 
+##装饰器
+
+- 更改需求函数的功能
+
+```
+import time
+def f1():
+    print('This is a func.')
+def f2():
+    print('This is anothre func.')
+
+def print_current_time(func):
+    print(time.time())
+    func()
+
+ print_current_time(f1) 
+ print_current_time(f2)
+```
+
+
+
 
 
 
