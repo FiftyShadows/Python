@@ -85,7 +85,9 @@ filter(lambda x: x == 1, list_x)
 
 ##装饰器
 
-- 更改需求函数的功能
+- 更改函数的功能，要遵循开闭原则
+
+- 新增加的需求属于函数本身的，现在把实现放在了函数外；并没有体现函数本身的特性
 
 ```
 import time
@@ -102,6 +104,29 @@ def print_current_time(func):
  print_current_time(f2)
 ```
 
+- 装饰器是一种模式
+
+- 可以接受定义时候的复杂，但不能接受调用时候的复杂
+
+- python的装饰器体现了AOP的编程思想
+
+```
+import time
+def decorator(func):
+    def wrapper(func):
+        print(time.time())
+        func()
+    return wrapper
+
+@decorator
+def f1():
+    print('This is a func.')
+
+f1()
+
+#f = decorator(f1)
+#f()
+```
 
 
 
