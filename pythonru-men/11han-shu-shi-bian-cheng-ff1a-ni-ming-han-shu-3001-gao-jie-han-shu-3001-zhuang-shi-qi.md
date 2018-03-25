@@ -61,6 +61,7 @@ r = reduce(lambda x,y: x+y, list_x)
 
 
 
+
 ##filter
 
 - 判断字母大小写：数据处理时，依靠大写字母判断是不是句子的开头。
@@ -128,6 +129,28 @@ f1()
 #f()
 ```
 
+
+
+
+##装饰器传参
+
+- 可变参数*args
+
+```py
+import time
+
+def decorator(fnc):
+    def wrapper(*args):
+        print(time.time())
+        fnc(*args)
+    return wrapper
+
+@decorator
+def f1(username, id):
+    print('This is' + username + id)
+
+f1('zhangsan', '666');
+```
 
 
 

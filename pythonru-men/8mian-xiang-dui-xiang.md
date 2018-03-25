@@ -278,9 +278,6 @@ student1.getName()
 
 
 
-
-
-
 ##python相比其他编程语言的特殊之处：可以多继承；一个类可以有多个父类
 
 
@@ -316,6 +313,8 @@ class Student(Human):
 student1 = Student('zhangsan', 18, 'middle school')
 student1.do_homework()
 ```
+
+
 
 
 
