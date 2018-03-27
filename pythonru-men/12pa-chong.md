@@ -81,6 +81,64 @@
 
 
 
+```py
+from urllib import request
+import re
+
+class Spider():
+    url = 'https://www.panda.tv/cate/kingglory?pdt=1.24.s1.53.3vu3h1fc7ou'
+    reg_video = '<div class="video-info">([\s\S]*?)</div>'
+    reg_name = '</i>([\s\S]*?)</span>'
+    reg_num = '<span class="video-number">([\s\S]*?)</span>'
+
+    def __fetch_content(self):
+        r = request.urlopen(Spider.url)
+        #这里的htmls是bytes；字节码
+        htmls = r.read()
+        htmls = str(htmls, encoding = 'utf-8')
+        return htmls
+
+    def __analysis(self, htmls):
+        root_htmls = re.findall(Spider.reg_video, htmls)
+
+        anchors = []
+        for html in root_htmls:
+            name = re.findall(Spider.reg_name, html)
+            name = name[0].strip()
+            num = re.findall(Spider.reg_num, html)
+            num = num[0].strip()
+            anchor = {'name': name, 'num': num}
+            anchors.append(anchor)
+        return anchors
+
+    def __sort(self, anchors):
+        anchors = sorted(anchors, key = self.__sort_seed, reverse=True)
+        return anchors
+
+    def __sort_seed(self, anchor):
+        r = re.findall('\d*', anchor['num'])
+        number = float(r[0])
+        if '万' in anchor['num']:
+            number *= 10000
+        return number
+
+    def __show(self, anchors):
+        for rank in range(0, len(anchors)):
+            print('第' + str(rank + 1) + '名' + '-------' + anchors[rank]['name'] + '-------' + anchors[rank]['num'])
+
+    def go(self):
+        htmls = self.__fetch_content()
+        anchors = self.__analysis(htmls)
+        anchors = self.__sort(anchors)
+        self.__show(anchors)
+
+
+spider = Spider()
+spider.go()
+
+```
+
+
 
 
 
