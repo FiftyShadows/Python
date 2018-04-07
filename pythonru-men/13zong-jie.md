@@ -79,6 +79,12 @@ print(f)
 
 - 判空操作，`if a`和`if not a`
 
+```
+print(type(None))
+
+print('' is None)
+```
+
 
 
 
