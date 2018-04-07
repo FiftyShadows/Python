@@ -73,6 +73,17 @@ print(f)
 
 
 
+##None
+
+- None是一种类型NoneType，不等同于'',[],False
+
+- 判空操作，`if a`和`if not a`
+
+
+
+
+
+
 
 
 
