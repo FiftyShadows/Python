@@ -35,6 +35,40 @@ print(dayName)
 
 ##列表推导式
 
+```
+'''
+    列表推导式
+    集合推导式
+    map filter
+    set 也可以被推导
+    dict
+'''
+
+a = [2,4,6,8,10,20,40,60]
+
+b = [i**2 for i in a if i > 20]
+
+c = {1,2,3,4,5,6,7}
+
+d = {i**2 for i in c if i > 3}
+
+students = {
+    '喜小乐': 18,
+    '石敢当': 20,
+    '横小五': 15
+}
+
+e = {value: key for key,value in students.items()}
+
+#元祖不可变，生成的是generator对象；推荐使用列表
+f = (value for key, value in students.items())
+
+for x in f:
+    print(x)
+
+print(f)
+
+```
 
 
 
