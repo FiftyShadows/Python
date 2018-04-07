@@ -1,7 +1,7 @@
 ##用字典映射代替switch case语句
 
 
-```
+```py
 def get_sunday():
     return 'sunday'
 
@@ -29,3 +29,27 @@ dayName = switcher.get(day, get_default)()
 
 print(dayName)
 ```
+
+
+
+##列表推导式
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
