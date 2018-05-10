@@ -16,10 +16,7 @@
 
 以总结分享为荣 , 以跪求其解为耻。
 
-
-
-
-##同步到github步骤
+##将本地gitbook同步到github，并创建线上gitbook
 
 1. 在github上创建仓库，不要初始化
 
@@ -27,14 +24,11 @@
 
 3. 设置gitbook仓库地址，即github上的https地址
 
-4. push
+4. Sync
 
+5. 打开gitbook网站，新建gitbook，选择仓库
 
-
-
-##23种设计模式、代码大全2
-
-
+## 23种设计模式、代码大全2
 
 
 
