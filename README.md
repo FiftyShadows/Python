@@ -24,7 +24,7 @@
 
 3. 设置gitbook仓库地址，即github上的https地址
 
-4. Sync
+4. 本地Sync
 
 5. 打开gitbook网站，新建gitbook，选择仓库
 
