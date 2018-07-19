@@ -84,6 +84,10 @@ ls &>/dev/null
 
 ## 管道符
 
+- 命令1 | 命令2    命令1的正确输出作为命令2的操作对象
+
+
+
 date; tar -zcvf etc.tar.gz /etc; date
 
 ls && echo yes || echo no
