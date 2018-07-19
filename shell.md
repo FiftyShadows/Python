@@ -84,6 +84,10 @@ ls &>/dev/null
 
 ## 管道符
 
+date; tar -zcvf etc.tar.gz /etc; date
+
+
+
 ![](/assets/360截图17040515627772.png)
 
 
