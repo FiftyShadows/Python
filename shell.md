@@ -92,7 +92,7 @@ netstat -an
 
 netstat -an | grey ESTABLISHED
 
-netstat -an | grey ESTABLISHED | wx -l
+netstat -an | grey ESTABLISHED | wc -l
 
 
 
