@@ -2,6 +2,8 @@
 
 ![](/assets/360截图184702017878114.png)
 
+![](/assets/360截图16720407100111136.png)
+
 
 ## shell
 
@@ -38,6 +40,8 @@ history -c    清空历史命令
 ls -alh
 
 vim /etc/profile
+
+命令补全依赖于 $PATH
 
 
 
