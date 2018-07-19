@@ -75,6 +75,8 @@ ls &>/dev/null
 
 - wc < test.log
 
+- wc << ddy
+
 
 
 
