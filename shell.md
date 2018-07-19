@@ -90,8 +90,9 @@ ls -l /etc | more
 
 netstat -an
 
-netstat -an | grey
+netstat -an | grey ESTABLISHED
 
+netstat -an | grey ESTABLISHED | wx -l
 
 
 
