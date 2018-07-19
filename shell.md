@@ -90,6 +90,8 @@ ls -l /etc | more
 
 netstat -an
 
+netstat -an | grey
+
 
 
 
