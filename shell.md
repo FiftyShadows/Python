@@ -35,6 +35,8 @@ history -w    把缓存中的历史命令写入历史命令保存文件
 
 history -c    清空历史命令
 
+ls-alh
+
 
 
 
