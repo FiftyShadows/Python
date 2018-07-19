@@ -43,6 +43,8 @@ vim /etc/profile
 
 命令补全依赖于 $PATH
 
+文件目录依赖于操作路径
+
 
 
 
