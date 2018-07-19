@@ -86,6 +86,7 @@ ls &>/dev/null
 
 - 命令1 | 命令2    命令1的正确输出结果作为命令2的操作对象
 
+ls -l /etc | more
 
 
 date; tar -zcvf etc.tar.gz /etc; date
