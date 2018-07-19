@@ -112,6 +112,8 @@ ls && echo yes || echo no
 
 
 
+## 基本命令
+
 pwd (Print Working Directory) 查看当前目录
 cd (Change Directory) 切换目录，如 cd /etc
 ls (List) 查看当前目录下内容，如 ls -al
