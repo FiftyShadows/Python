@@ -29,7 +29,7 @@ source .bashrc
 
 unalias vi
 
-/root/.bash_history    保存了历史命令
+/root/.bash_history    保存了历史命令,默认1000条
 
 history -w    把缓存中的历史命令写入历史命令保存文件
 
