@@ -19,7 +19,9 @@ echo $SHELL
 
 ![](/assets/360截图16821217658050.png)
 
-alias vi='vim'
+alias vi='vim'    临时生效
+
+
 
 
 
