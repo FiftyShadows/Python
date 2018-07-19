@@ -51,6 +51,10 @@ vim /etc/profile
 
 date
 
+
+
+## 输出重定向
+
 ifconfig > test.log
 
 ls &>/dev/null
