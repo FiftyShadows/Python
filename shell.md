@@ -23,6 +23,8 @@ alias vi='vim'    临时生效
 
 vim /root/.bashrc
 
+source .bashrc
+
 
 
 
