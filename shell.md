@@ -19,6 +19,27 @@ echo $SHELL
 
 ![](/assets/360截图16821217658050.png)
 
+alias vi='vim'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 pwd (Print Working Directory) 查看当前目录
 cd (Change Directory) 切换目录，如 cd /etc
