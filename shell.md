@@ -23,11 +23,13 @@ echo $SHELL
 
 alias vi='vim'    临时生效
 
-vim /root/.bashrc
+vim /root/.bashrc    保存了命令别名
 
 source .bashrc
 
 unalias vi
+
+/root/.bash_history    保存了历史命令
 
 
 
