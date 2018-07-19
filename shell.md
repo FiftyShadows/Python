@@ -47,7 +47,9 @@ vim /etc/profile
 
     - 文件目录依赖于操作路径
 
+date
 
+ifconfig > test.log
 
 
 
