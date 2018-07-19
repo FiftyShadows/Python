@@ -88,6 +88,10 @@ ls &>/dev/null
 
 ls -l /etc | more
 
+netstat -an
+
+
+
 
 date; tar -zcvf etc.tar.gz /etc; date
 
