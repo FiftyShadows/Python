@@ -106,6 +106,16 @@ ls && echo yes || echo no
 
 ## 通配符
 
+ls dzp*
+
+ls dzp?
+
+`ls dzp[0-9]`
+
+`ls dzp[0-9][0-9]`
+
+ls dzp[^0-9]
+
 ![](/assets/360截图184307109611595.png)
 
 
