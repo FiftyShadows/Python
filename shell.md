@@ -25,6 +25,10 @@ echo $SHELL
 
 ![](/assets/360截图16821217658050.png)
 
+
+
+## 别名
+
 alias vi='vim'    临时生效
 
 vim /root/.bashrc    保存了命令别名
@@ -32,6 +36,10 @@ vim /root/.bashrc    保存了命令别名
 source .bashrc
 
 unalias vi
+
+
+
+## 历史命令
 
 /root/.bash_history    保存了历史命令,默认1000条
 
