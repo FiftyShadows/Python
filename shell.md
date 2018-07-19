@@ -53,7 +53,7 @@ date
 
 ifconfig > test.log
 
-
+ls &>/dev/null
 
 
 
