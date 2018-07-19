@@ -86,7 +86,7 @@ ls &>/dev/null
 
 date; tar -zcvf etc.tar.gz /etc; date
 
-
+ls && echo yes || echo no
 
 ![](/assets/360截图17040515627772.png)
 
