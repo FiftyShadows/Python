@@ -73,6 +73,8 @@ ls &>/dev/null
 
 - wc 统计    -l行数    -w单词数    -c字符数    ctrl+d
 
+- wc < test.log
+
 
 
 
