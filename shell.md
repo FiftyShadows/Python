@@ -25,6 +25,8 @@ vim /root/.bashrc
 
 source .bashrc
 
+unalias vi
+
 
 
 
