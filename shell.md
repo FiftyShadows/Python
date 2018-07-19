@@ -67,6 +67,9 @@ ifconfig > test.log
 
 ls &>/dev/null
 
+![](/assets/360截图17860603494875.png)
+
+![](/assets/360截图16720404573679.png)
 
 
 ## 输入重定向
