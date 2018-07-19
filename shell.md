@@ -37,8 +37,7 @@ history -c    清空历史命令
 
 ls -alh
 
-
-
+vim /etc/profile
 
 
 
