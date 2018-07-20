@@ -130,6 +130,7 @@ ls dzp?
 
 ## 基本命令
 
+```
 pwd (Print Working Directory) 查看当前目录
 cd (Change Directory) 切换目录，如 cd /etc
 ls (List) 查看当前目录下内容，如 ls -al
@@ -152,3 +153,4 @@ curl 网络请求，如curl http://www.baidu.com
 whoami 查看当前用户
 | 管道符可以将多个命令连接使用，上一次（命令）的执行结果当成下一次（命令）的参数。
 grep 匹配内容，一般结合管道符使用
+```
