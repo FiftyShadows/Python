@@ -93,9 +93,9 @@ ls -l /etc | more
 
 netstat -an
 
-netstat -an | grey ESTABLISHED
+netstat -an | grep ESTABLISHED
 
-netstat -an | grey ESTABLISHED | wc -l
+netstat -an | grep ESTABLISHED | wc -l
 
 
 
@@ -133,6 +133,7 @@ ls dzp?
 
 ## 基本命令
 
+```
 pwd (Print Working Directory) 查看当前目录
 cd (Change Directory) 切换目录，如 cd /etc
 ls (List) 查看当前目录下内容，如 ls -al
@@ -155,3 +156,21 @@ curl 网络请求，如curl http://www.baidu.com
 whoami 查看当前用户
 | 管道符可以将多个命令连接使用，上一次（命令）的执行结果当成下一次（命令）的参数。
 grep 匹配内容，一般结合管道符使用
+more命令    查看某个命令的帮助
+w命令    显示登录用户的详细信息
+who命令    显示登录用户
+last命令    查看最近那些用户登录系统
+clock命令    时钟设置
+uname命令    查看系统版本
+su命令    切换用户    su - 切换到root用户    - ，他很关键，使用-，将使用用户的环境变量 
+top命令    查看系统cpu、内存等使用情况
+free命令    查看内存和swap分区使用情况
+ps命令    显示进程信息
+ps ux 显示当前用户的进程
+ps uxwww 显示当前用户的进程的详细信息
+ps aux 显示所有用户的进程
+ps ef 显示系统所有进程信息
+kill命令    干掉某个进程，进程号可以通过ps命令得到
+kill -9 1001　将进程编号为1001的程序干掉
+kill all -9 apache　将所有名字为apapche的程序杀死，kill不是万能的，对僵死的程序则无效。
+```
