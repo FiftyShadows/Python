@@ -21,3 +21,27 @@ ROBOTSTXT_OBEY = False
 ![](/assets/360截图17001016867485.png)
 
 ![](/assets/360截图17001015556675.png)
+
+
+scrapy shell http://blog.jobbole.com/110287/
+
+title = response.xpath('//*[@id="post-110287"]/div[1]/h1/text()')    //text会忽略掉子元素
+
+title.extract()[0]
+
+title.extract()[0].strip()
+
+title.extract()[0].strip().replace('·', '').strip()
+
+response.xpath('//span[contains(@class, 'vote-post-up')]');
+
+
+
+
+
+
+
+
+
+
+
