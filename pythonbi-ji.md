@@ -1,3 +1,15 @@
+Python的函数返回多值其实就是返回一个tuple，但写起来更方便。
+
+
+
+数据类型检查可以用内置函数isinstance(),raise TypeError('bad operand type')
+
+
+
+hex()函数把一个整数转换成十六进制表示的字符串
+
+
+
 ## Python中，数值类型（int和float）、字符串str、元组tuple都是不可变类型。而列表list、字典dict、集合set是可变类型。
 
 
