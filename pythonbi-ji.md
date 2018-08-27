@@ -1,3 +1,11 @@
+
+
+
+
+`定义可变参数和定义一个list或tuple参数相比，仅仅在参数前面加了一个*号。在函数内部，参数numbers接收到的是一个tuple。Python允许你在list或tuple前面加一个*号，把list或tuple的元素变成可变参数传进去。`
+
+
+
 Python的函数返回多值其实就是返回一个tuple，但写起来更方便。
 
 
