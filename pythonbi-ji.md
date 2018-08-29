@@ -1,3 +1,7 @@
+isinstance(object, classinfo)判断一个对象是否是一个已知的类型，类似 type()。
+
+
+
 如果要对list实现类似Java那样的下标循环怎么办？Python内置的enumerate函数可以把一个list变成索引-元素对，这样就可以在for循环中同时迭代索引和元素本身
 
 
