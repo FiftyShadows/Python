@@ -1,3 +1,7 @@
+for循环的对象统称为可迭代对象：Iterable。可以被next()函数调用并不断返回下一个值的对象称为迭代器：Iterator。
+
+
+
 isinstance(object, classinfo)判断一个对象是否是一个已知的类型，类似 type()。
 
 
