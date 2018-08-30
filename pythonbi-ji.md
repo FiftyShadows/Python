@@ -1,3 +1,7 @@
+map()函数接收两个参数，一个是函数，一个是Iterable，map将传入的函数依次作用到序列的每个元素，并把结果作为新的Iterator返回。
+
+
+
 ## for循环的对象统称为可迭代对象：Iterable。可以被next()函数调用并不断返回下一个值的对象称为迭代器：Iterator。
 
 - 把list、dict、str等Iterable变成Iterator可以使用iter()函数
