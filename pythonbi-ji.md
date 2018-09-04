@@ -1,8 +1,12 @@
+判断一个对象是否是函数,使用types模块中定义的常量
+
+
+
 sys.path    所有已安装的内置模块和第三方模块，搜索路径存放在sys模块的path变量中
 
 
 
-isinstance(object, classinfo)判断一个对象是否是一个已知的类型，类似 type()。
+isinstance(object, classinfo)判断一个对象是否是一个已知的类型，类似 type()判断对象类型。还可以判断一个变量是否是某些类型中的一种isinstance([1, 2, 3], (list, tuple))
 
 
 
