@@ -1,3 +1,7 @@
+sys.path    所有已安装的内置模块和第三方模块，搜索路径存放在sys模块的path变量中
+
+
+
 isinstance(object, classinfo)判断一个对象是否是一个已知的类型，类似 type()。
 
 
