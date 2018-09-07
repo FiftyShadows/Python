@@ -1,3 +1,11 @@
+`[x for x in os.listdir('.') if os.path.isfile(x) and os.path.splitext(x)[1]=='.py']`
+
+
+
+`[x for x in os.listdir('.') if os.path.isdir(x)]`
+
+
+
 
 幸运的是shutil模块提供了copyfile()的函数，你还可以在shutil模块中找到很多实用函数，它们可以看做是os模块的补充。
 
