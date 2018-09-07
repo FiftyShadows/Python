@@ -1,3 +1,13 @@
+
+幸运的是shutil模块提供了copyfile()的函数，你还可以在shutil模块中找到很多实用函数，它们可以看做是os模块的补充。
+
+
+
+
+在操作系统中定义的环境变量，全部保存在os.environ这个变量中，要获取某个环境变量的值，可以调用os.environ.get('key')。
+
+
+
 StringIO和BytesIO是在内存中操作str和bytes的方法，使得和读写文件具有一致的接口。
 
 
