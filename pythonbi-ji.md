@@ -1,3 +1,7 @@
+用正则表达式切分字符串比用固定的字符更灵活
+
+
+
 `[x for x in os.listdir('.') if os.path.isfile(x) and os.path.splitext(x)[1]=='.py']`
 
 
