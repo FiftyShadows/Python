@@ -1,3 +1,7 @@
+StringIO和BytesIO是在内存中操作str和bytes的方法，使得和读写文件具有一致的接口。
+
+
+
 with语句来自动帮我们调用f.close()方法
 
 
