@@ -12,3 +12,6 @@ pymongo : 用于对mongodb数据库的调用
 
 
 slinter
+
+
+celery
