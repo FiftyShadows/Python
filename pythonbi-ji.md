@@ -1,3 +1,8 @@
+`s = a[a.find('p_skey=') + 7: a.find(';', a.find('p_skey='))]`
+
+
+
+
 用正则表达式切分字符串比用固定的字符更灵活 `re.split(r'[\s\,\;]+', 'a,b;; c  d')`
 
 
