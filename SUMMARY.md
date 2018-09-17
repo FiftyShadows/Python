@@ -21,5 +21,4 @@
   * [爬取网站](scrapy/pa-qu-wang-zhan.md)
 * [Requests](requests.md)
 * [lib](lib.md)
-* requests
 
