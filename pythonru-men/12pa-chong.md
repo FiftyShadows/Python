@@ -1,3 +1,7 @@
+我使用Chrome的元素审查对网页进行分析来得到XPath路径，但是Chrome会对网页源码进行加工，在<table>标签中，如果源码中没有写<tbody>标签，在元素审查和查看网页源代码中还是会将<tbody>强行添加上。
+
+
+
 ```
 accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
 
