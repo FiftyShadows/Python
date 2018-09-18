@@ -1,3 +1,22 @@
+成员运算符‘in’和‘not in’
+
+
+
+split()能让我们用指定字符分割字符串
+
+
+
+join()能让我们将指定字符添加至字符串中
+
+
+
+`from random import shuffle`    shuffle(list)打乱一个列表的元素
+
+
+random.choice    随机选取
+
+
+
 `s = a[a.find('p_skey=') + 7: a.find(';', a.find('p_skey='))]`
 
 
