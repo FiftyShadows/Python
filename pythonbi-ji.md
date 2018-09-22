@@ -2,6 +2,11 @@ xpath last()
 
 
 
+from lxml import html
+html = html.fromstring(r.text)
+
+
+
 成员运算符‘in’和‘not in’
 
 
