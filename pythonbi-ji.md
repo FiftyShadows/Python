@@ -1,3 +1,18 @@
+
+默认情况下，dict迭代的是key。如果要迭代value，可以用for value in d.values()，如果要同时迭代key和value，可以用for k, v in d.items()。
+
+如何判断一个对象是可迭代对象呢？方法是通过collections模块的Iterable类型判断
+from collections import Iterable
+
+
+在Python中，这种一边循环一边计算的机制，称为生成器：generator。
+可以被next()函数调用并不断返回下一个值的对象称为迭代器：Iterator。
+可以使用isinstance()判断一个对象是否是Iterator对象：
+Iterator的计算是惰性的，只有在需要返回下一个数据时它才会计算。
+集合数据类型如list、dict、str等是Iterable但不是Iterator，不过可以通过iter()函数获得一个Iterator对象。
+
+
+
 xpath last()
 
 
