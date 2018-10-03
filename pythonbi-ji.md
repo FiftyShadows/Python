@@ -1,4 +1,35 @@
 
+
+## from urllib import parse
+
+- parse.urlencode(dict)将字典转化为key=value&key=value的url编码形式
+
+- parse.quote(str)将字符串转化为url编码
+
+
+
+
+## any() 函数用于判断给定的可迭代参数 iterable 是否全部为 False，则返回 False，如果有一个为 True，则返回 True。
+
+
+## all() 函数用于判断给定的可迭代参数 iterable 中的所有元素是否都为 TRUE，如果是返回 True，否则返回 False。
+
+
+## in 操作符用于判断键是否存在于字典中
+
+```py
+chain = {
+	'a': 123,
+	'b': 456,
+	'c': 789
+}
+require = ['a', 'b', 'c']
+a = (k in chain for k in require)
+print(a)
+```
+
+
+
 默认情况下，dict迭代的是key。如果要迭代value，可以用for value in d.values()，如果要同时迭代key和value，可以用for k, v in d.items()。
 
 如何判断一个对象是可迭代对象呢？方法是通过collections模块的Iterable类型判断
