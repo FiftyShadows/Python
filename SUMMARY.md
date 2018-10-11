@@ -23,4 +23,6 @@
 * [lib](lib.md)
 * [性能优化](xing-neng-you-hua.md)
 * [区块链入门](qu-kuai-lian-ru-men.md)
+* [数据结构](shu-ju-jie-gou.md)
+  * [数组](shu-ju-jie-gou/shu-zu.md)
 
